@@ -362,3 +362,75 @@ footer{
   filter: none;
   scale: 1.3;
 }
+@media (max-width: 1200px) {
+  .projetos {
+    grid-template-columns: 1fr; 
+  }
+
+  .box-grind img {
+    width: 90%; 
+    height: auto;
+  }
+
+  .box {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .tecnologias h1,
+  .grind h1 {
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .pg, .tecnologias, .sobre_mim {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .box_6 p {
+    font-size: 16px; 
+    padding: 0 10px; 
+  }
+
+  .minha_foto {
+    width: 200px; 
+    height: auto;
+  }
+
+  .rotaçao ul {
+    flex-direction: column; 
+    gap: 10px;
+  }
+
+  .box-grind img {
+    width: 100%; 
+    height: auto;
+  }
+
+  .box a {
+    font-size: 16px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .box_6 button {
+    width: 100%; 
+  }
+
+  .minha_foto {
+    width: 150px; 
+  }
+
+  ul {
+    flex-direction: column; 
+    align-items: center;
+    gap: 15px;
+  }
+
+  .projetos {
+    padding: 10px; 
+  }
+}

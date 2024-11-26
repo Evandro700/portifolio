@@ -88,7 +88,7 @@ ul {
 }
 .texto-animado {
   display: flex;
-  width: 550px;
+  width: 100%;
   padding-left: 90px;
 }
 .box_2 h2 {
